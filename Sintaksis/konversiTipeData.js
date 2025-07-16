@@ -2,6 +2,7 @@
 * Mengubah ke String, 
 * menggunakan toString() atau String()
 */
+console.log("======================Konversi String====================");
 
 const nilai = 100;
 const valid = true;
@@ -17,6 +18,9 @@ console.log(`Nilai ${strValid} ini bertipe data ${typeof(strValid)}`);
 * Selain itu, dapat juga dibuat menjadi lebih spesifik.
 * Salah dua nya menggunakan parseInt() dan parseFloat()
 */
+
+console.log("======================Konversi Number====================");
+
 const strFloat = "9.9";
 
 const numFloat = Number(strFloat);
@@ -44,7 +48,7 @@ const boolTotal = Boolean(total);
 const boolMakanan = Boolean(makanan);
 const boolGrade = Boolean(grade);
 
-console.log("======================Boolean Konversi====================")
+console.log("======================Konversi Boolean====================");
 console.log(boolTotal);
 console.log(boolMakanan);
 console.log(boolGrade);
@@ -52,3 +56,11 @@ console.log(boolGrade);
 /* Konversi Implisit
 * Ini terjadi karena JS secara otomatis mengubah tipe data tanpa instruksi eksplisit dari programmer.
 */
+
+console.log("======================Konversi Implisit====================");
+
+const age = 20;
+const message = "Umurku " + age;
+
+// Age (int) akan berubah menjadi String ketika disatukan dengan string. Ini dinamakan konversi implisit.
+console.log(message, `,Tipe data = ${typeof(message)}`);
