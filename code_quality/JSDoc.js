@@ -14,3 +14,6 @@ function greet(){
 function add(numA, numB){
     return numA +numB;
 }
+
+greet();
+add(1+2);
