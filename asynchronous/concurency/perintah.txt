@@ -1,0 +1,7 @@
+Buat urutan seperti ini:
+1. Mencuci pakaian kotor dengan mesin cuci.
+2. Menyapu lantai dengan robot pembersih.
+3. Membuat kopi.
+
+Kita bisa kerjakan nomor 3 sembari dua pekerjaan tersebut dalam proses penyelesaian. 
+Ini disebut concurrency karena > 1 proses asynchronous berjalan secara bersamaan.

@@ -1,0 +1,9 @@
+Cara untuk menggunakan flow pada JS.
+1. Buat dokumen dengan extention .ts
+2. Kompilasi file typescript menggunakan perintah
+tsc [file.ts]
+Perintah tersebut akan membuat file baru bernama file.js.
+3. Jalankan file yang sudah dikompilasi
+
+JIKA BELUM INSTALL TypeScript Compiler (TSC)
+Download dalam terminal: npm install -g typescript
